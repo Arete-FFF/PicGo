@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T14:53:05.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="DjvhyUP_-9fuPB9Uh7Z-" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T14:55:38.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="miR3q-zp15KzX8q8YwDS" version="20.8.23" type="github">
   <diagram name="第 1 页" id="aGpSFfY5tc4J-nu4bRol">
     <mxGraphModel dx="945" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,6 +53,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aoJTgJWLaDxqH3buBXeL-29" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
