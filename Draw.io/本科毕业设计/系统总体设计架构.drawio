@@ -1,53 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T08:45:40.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="FSFVACJMnAz_gDDgW7IX" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T07:18:35.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="rmkNz1-rWyltnwjNxmyf" version="21.0.6" type="github">
   <diagram id="qzLwJ4X5yYsX_Pqfa8gJ" name="第 1 页">
-    <mxGraphModel dx="1401" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-XkHRvkM_vw5rs00xsbZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;perimeterSpacing=0;" parent="1" vertex="1">
+        <mxCell id="-XkHRvkM_vw5rs00xsbZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;perimeterSpacing=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="80" y="30" width="680" height="470" as="geometry" />
         </mxCell>
         <mxCell id="-XkHRvkM_vw5rs00xsbZ-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;基于深度学习的用电安全管理类隐患分析系统&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=12;fontColor=default;fillColor=default;strokeWidth=0;opacity=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="30" width="680" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-XkHRvkM_vw5rs00xsbZ-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;用户操作模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=20;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="105" y="90" width="290" height="40" as="geometry" />
+        <mxCell id="-XkHRvkM_vw5rs00xsbZ-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;用户操作模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#d79b00;fontFamily=宋体;fontSize=20;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="105" y="70" width="635" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-XkHRvkM_vw5rs00xsbZ-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据存储模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=20;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="105" y="370" width="630" height="40" as="geometry" />
+        <mxCell id="-XkHRvkM_vw5rs00xsbZ-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据存储模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#b85450;fontFamily=宋体;fontSize=20;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="100" y="368" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8fsPF6jv214_PspzoPRW-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;告警信息模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="440" y="90" width="300" height="40" as="geometry" />
+        <mxCell id="a34KFY5_O4nveKa4adVM-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="580" y="123.6" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8fsPF6jv214_PspzoPRW-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据获取模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="105" y="430" width="630" height="40" as="geometry" />
+        <mxCell id="a34KFY5_O4nveKa4adVM-42" value="" style="group" vertex="1" connectable="0" parent="a34KFY5_O4nveKa4adVM-36">
+          <mxGeometry width="160.00000000000003" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-XkHRvkM_vw5rs00xsbZ-13" value="深度学习模块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=18;fontColor=default;fillColor=default;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="110" y="150" width="630" height="200" as="geometry" />
+        <mxCell id="8fsPF6jv214_PspzoPRW-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;告警信息模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#d6b656;fontFamily=宋体;fontSize=20;fillColor=#fff2cc;verticalAlign=top;" parent="a34KFY5_O4nveKa4adVM-42" vertex="1">
+          <mxGeometry width="160.00000000000003" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-XkHRvkM_vw5rs00xsbZ-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;图片分割模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=18;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="145" y="279.72810810810813" width="165.45454545454547" height="43.24324324324324" as="geometry" />
+        <mxCell id="a34KFY5_O4nveKa4adVM-1" value="告警预警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="a34KFY5_O4nveKa4adVM-42">
+          <mxGeometry x="10.666666666666668" y="35" width="64" height="26.25" as="geometry" />
         </mxCell>
-        <mxCell id="-XkHRvkM_vw5rs00xsbZ-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;设备状态&lt;/font&gt;识别模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=18;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="145" y="193.24324324324323" width="165.45454545454547" height="43.24324324324324" as="geometry" />
+        <mxCell id="a34KFY5_O4nveKa4adVM-2" value="信息通知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="a34KFY5_O4nveKa4adVM-42">
+          <mxGeometry x="85.33333333333334" y="35" width="64" height="26.25" as="geometry" />
         </mxCell>
-        <mxCell id="-XkHRvkM_vw5rs00xsbZ-16" value="配电所&lt;br&gt;场景识别模块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=18;fontColor=default;fillColor=default;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="342.27272727272725" y="193.24243243243245" width="165.45454545454547" height="129.72972972972974" as="geometry" />
+        <mxCell id="a34KFY5_O4nveKa4adVM-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="420" width="635" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-XkHRvkM_vw5rs00xsbZ-17" value="火灾情况&lt;br&gt;识别模块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=18;fontColor=default;fillColor=default;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="552.2727272727273" y="193.24243243243245" width="165.45454545454547" height="129.72972972972974" as="geometry" />
+        <mxCell id="8fsPF6jv214_PspzoPRW-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;数据获取模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#9673a6;fontFamily=宋体;fontSize=12;fillColor=#e1d5e7;verticalAlign=top;horizontal=1;" parent="a34KFY5_O4nveKa4adVM-37" vertex="1">
+          <mxGeometry width="635" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8fsPF6jv214_PspzoPRW-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-XkHRvkM_vw5rs00xsbZ-15" target="-XkHRvkM_vw5rs00xsbZ-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="610" as="sourcePoint" />
-            <mxPoint x="200" y="560" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="a34KFY5_O4nveKa4adVM-4" value="地址获取图片信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="a34KFY5_O4nveKa4adVM-37">
+          <mxGeometry x="233.75" y="30" width="167.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8fsPF6jv214_PspzoPRW-5" value="&lt;font face=&quot;宋体&quot;&gt;Faster R-CNN&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="260" width="120" height="40" as="geometry" />
+        <mxCell id="a34KFY5_O4nveKa4adVM-6" value="图片预处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="a34KFY5_O4nveKa4adVM-37">
+          <mxGeometry x="447.5" y="30" width="167.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8fsPF6jv214_PspzoPRW-6" value="&lt;font face=&quot;宋体&quot;&gt;YOLO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="575" y="260" width="120" height="40" as="geometry" />
+        <mxCell id="a34KFY5_O4nveKa4adVM-7" value="API数据抓取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="a34KFY5_O4nveKa4adVM-37">
+          <mxGeometry x="25" y="30" width="167.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="123.60000000000002" width="470" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-48" value="" style="group" vertex="1" connectable="0" parent="a34KFY5_O4nveKa4adVM-41">
+          <mxGeometry width="470" height="229.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="-XkHRvkM_vw5rs00xsbZ-13" value="用电安全隐患分析模块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#000000;fontFamily=宋体;fontSize=18;fillColor=#dae8fc;verticalAlign=top;" parent="a34KFY5_O4nveKa4adVM-48" vertex="1">
+          <mxGeometry width="470" height="229.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-34" value="" style="group" vertex="1" connectable="0" parent="a34KFY5_O4nveKa4adVM-48">
+          <mxGeometry x="12.123015873015872" y="149.5" width="445.7539682539682" height="74.75" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-22" value="模型算法" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#CCFFE6;strokeColor=#000000;" vertex="1" parent="a34KFY5_O4nveKa4adVM-34">
+          <mxGeometry width="445.7539682539682" height="74.75" as="geometry" />
+        </mxCell>
+        <mxCell id="8fsPF6jv214_PspzoPRW-6" value="&lt;font&gt;YOLO&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#CCFFE6;strokeColor=#000000;" parent="a34KFY5_O4nveKa4adVM-34" vertex="1">
+          <mxGeometry x="10.257936507936506" y="34.5" width="89.5238095238095" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-26" value="R-CNN" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#CCFFE6;strokeColor=#000000;" vertex="1" parent="a34KFY5_O4nveKa4adVM-34">
+          <mxGeometry x="125.14682539682539" y="34.5" width="89.5238095238095" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-27" value="RetinaNet" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#CCFFE6;strokeColor=#000000;" vertex="1" parent="a34KFY5_O4nveKa4adVM-34">
+          <mxGeometry x="234.0674603174603" y="34.5" width="89.5238095238095" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-28" value="EfficientDet" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#CCFFE6;strokeColor=#000000;" vertex="1" parent="a34KFY5_O4nveKa4adVM-34">
+          <mxGeometry x="345.9722222222222" y="34.5" width="89.5238095238095" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-40" value="" style="group" vertex="1" connectable="0" parent="a34KFY5_O4nveKa4adVM-48">
+          <mxGeometry x="12.123015873015872" y="34.5" width="445.7539682539682" height="103.49999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-10" value="目标检测" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#E6FFCC;strokeColor=#000000;container=0;" vertex="1" parent="a34KFY5_O4nveKa4adVM-40">
+          <mxGeometry width="445.7539682539682" height="103.49999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-32" value="火灾情况识别模块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=14;fontColor=default;fillColor=#E6FFCC;verticalAlign=middle;align=center;container=0;" vertex="1" parent="a34KFY5_O4nveKa4adVM-40">
+          <mxGeometry x="308.6706349206349" y="39.099999999999994" width="123.43095238095235" height="53.773999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="-XkHRvkM_vw5rs00xsbZ-16" value="配电所场景识别模块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=default;fontFamily=宋体;fontSize=14;fontColor=default;fillColor=#E6FFCC;verticalAlign=middle;align=center;container=0;" parent="a34KFY5_O4nveKa4adVM-40" vertex="1">
+          <mxGeometry x="159.3001587301587" y="39.099999999999994" width="123.43095238095235" height="53.773999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-11" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;设备状态&lt;/font&gt;识别模块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#000000;fontFamily=宋体;fontSize=14;fontColor=default;fillColor=#E6FFCC;verticalAlign=middle;align=center;container=0;" vertex="1" parent="a34KFY5_O4nveKa4adVM-40">
+          <mxGeometry x="10.257936507936485" y="39.099999999999994" width="123.43095238095235" height="53.773999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;系统控制模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeColor=#d6b656;fontFamily=宋体;fontSize=20;fillColor=#FFE6CC;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-53" value="模型选择" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#FFE6CC;strokeColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-51" value="告警通知信息修改" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#FFE6CC;strokeColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="120" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a34KFY5_O4nveKa4adVM-50" value="日志文档模块" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fillColor=#FFE6CC;strokeColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="120" height="34.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
