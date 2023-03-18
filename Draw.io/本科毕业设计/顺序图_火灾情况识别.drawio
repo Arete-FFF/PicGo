@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T14:45:19.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="huzYt3ObcyjRLL4ES-DF" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T13:22:39.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="_fOiU3yf_1JsmFOzgcGX" version="21.0.6" type="github">
   <diagram name="第 1 页" id="ZUcPJ8nwQQvhi497btmZ">
-    <mxGraphModel dx="945" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1002" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-1" value="深度学习模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-1" value="用电安全隐患分析模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="190" y="110" width="100" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="soi6QzS_a9XyFAHUzBpG-1">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="soi6QzS_a9XyFAHUzBpG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="soi6QzS_a9XyFAHUzBpG-1">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="soi6QzS_a9XyFAHUzBpG-1" vertex="1">
           <mxGeometry x="55" y="180" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-4" value="YOLO框架神经网络识别" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="soi6QzS_a9XyFAHUzBpG-1" target="soi6QzS_a9XyFAHUzBpG-3">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-4" value="YOLO框架神经网络识别" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="soi6QzS_a9XyFAHUzBpG-1" target="soi6QzS_a9XyFAHUzBpG-3" edge="1">
           <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="60" y="160" as="sourcePoint" />
             <Array as="points">
@@ -22,19 +22,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-5" value="数据存储模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-5" value="数据存储模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="380" y="110" width="100" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="soi6QzS_a9XyFAHUzBpG-5">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="soi6QzS_a9XyFAHUzBpG-5" vertex="1">
           <mxGeometry x="45" y="100" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="soi6QzS_a9XyFAHUzBpG-5">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="soi6QzS_a9XyFAHUzBpG-5" vertex="1">
           <mxGeometry x="45" y="220" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-8" value="系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-8" value="系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="40" y="110" width="100" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-9" value="火灾情况识别" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="soi6QzS_a9XyFAHUzBpG-8" target="soi6QzS_a9XyFAHUzBpG-2">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-9" value="火灾情况识别" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="soi6QzS_a9XyFAHUzBpG-8" target="soi6QzS_a9XyFAHUzBpG-2" edge="1">
           <mxGeometry x="-0.0309" relative="1" as="geometry">
             <mxPoint x="100" y="180" as="sourcePoint" />
             <Array as="points">
@@ -43,7 +43,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-10" value="返回火灾情况识别" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="soi6QzS_a9XyFAHUzBpG-2" target="soi6QzS_a9XyFAHUzBpG-8">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-10" value="返回火灾情况识别" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="soi6QzS_a9XyFAHUzBpG-2" target="soi6QzS_a9XyFAHUzBpG-8" edge="1">
           <mxGeometry x="0.0309" relative="1" as="geometry">
             <mxPoint x="100" y="255" as="targetPoint" />
             <Array as="points">
@@ -54,7 +54,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-11" value="获取未识别图片" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="soi6QzS_a9XyFAHUzBpG-2" target="soi6QzS_a9XyFAHUzBpG-6">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-11" value="获取未识别图片" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="soi6QzS_a9XyFAHUzBpG-2" target="soi6QzS_a9XyFAHUzBpG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="250" as="sourcePoint" />
             <Array as="points">
@@ -63,7 +63,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-12" value="返回未识别图片" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="soi6QzS_a9XyFAHUzBpG-6" target="soi6QzS_a9XyFAHUzBpG-2">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-12" value="返回未识别图片" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="soi6QzS_a9XyFAHUzBpG-6" target="soi6QzS_a9XyFAHUzBpG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="295" y="285" as="targetPoint" />
             <Array as="points">
@@ -71,7 +71,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-13" value="识别结果写入" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="soi6QzS_a9XyFAHUzBpG-2" target="soi6QzS_a9XyFAHUzBpG-7">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-13" value="识别结果写入" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="soi6QzS_a9XyFAHUzBpG-2" target="soi6QzS_a9XyFAHUzBpG-7" edge="1">
           <mxGeometry x="-0.0714" relative="1" as="geometry">
             <mxPoint x="315" y="400" as="sourcePoint" />
             <Array as="points">
@@ -80,7 +80,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="soi6QzS_a9XyFAHUzBpG-14" value="返回识别结果写入" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="soi6QzS_a9XyFAHUzBpG-7" target="soi6QzS_a9XyFAHUzBpG-2">
+        <mxCell id="soi6QzS_a9XyFAHUzBpG-14" value="返回识别结果写入" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="soi6QzS_a9XyFAHUzBpG-7" target="soi6QzS_a9XyFAHUzBpG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315" y="475" as="targetPoint" />
             <Array as="points">
