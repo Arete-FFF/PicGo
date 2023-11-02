@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T06:21:31.258Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" version="22.0.8" etag="YeHA4n6oPPErfddg-q06" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T06:27:39.564Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="LfRDjZ_bUbzK--fTc52K" version="22.0.8" type="github">
   <diagram name="第 1 页" id="HeDWFqhoXN4axxJUBEIz">
-    <mxGraphModel>
+    <mxGraphModel dx="755" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kBTE9PCaHdDs2iEqnd-E-6" target="kBTE9PCaHdDs2iEqnd-E-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kBTE9PCaHdDs2iEqnd-E-6" target="kBTE9PCaHdDs2iEqnd-E-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;关系隐式建模&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CEE5CB;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kBTE9PCaHdDs2iEqnd-E-7" target="kBTE9PCaHdDs2iEqnd-E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;关系显式建模&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7CFD3;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;意图分类&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;槽位标注&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.228;exitY=-0.008;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="kBTE9PCaHdDs2iEqnd-E-10" target="kBTE9PCaHdDs2iEqnd-E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;用户输入文本&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kBTE9PCaHdDs2iEqnd-E-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.773;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kBTE9PCaHdDs2iEqnd-E-10" target="kBTE9PCaHdDs2iEqnd-E-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="530" as="sourcePoint" />
+            <mxPoint x="310" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
