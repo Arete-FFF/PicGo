@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T13:03:03.952Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.5" etag="qsTD0p4SyTJVaKdNcGlG" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T13:14:31.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="RlFI2cRQRsIV1RoUmVgm" version="24.6.5" type="github">
   <diagram name="第 1 页" id="Ov5pVJ0Qa0qto5RODM2Z">
-    <mxGraphModel>
+    <mxGraphModel dx="1187" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GmKZTfWkLncyH2btANQY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GmKZTfWkLncyH2btANQY-2" target="GmKZTfWkLncyH2btANQY-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="245" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;热交换模型&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;电力消耗模型&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;环境模型&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-6" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 19px;&quot;&gt;空调基本模型&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GmKZTfWkLncyH2btANQY-7" target="GmKZTfWkLncyH2btANQY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-17" value="非线性回归" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmKZTfWkLncyH2btANQY-10">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-7" value="空调数字化描述" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GmKZTfWkLncyH2btANQY-9" target="GmKZTfWkLncyH2btANQY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-9" value="多项式空调模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-11" value="负荷数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.433;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GmKZTfWkLncyH2btANQY-9" target="GmKZTfWkLncyH2btANQY-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="230" />
+              <mxPoint x="750" y="142" />
+              <mxPoint x="642" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-15" value="循环确定参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GmKZTfWkLncyH2btANQY-14">
+          <mxGeometry x="0.2462" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-18" value="数据输入" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="290" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GmKZTfWkLncyH2btANQY-19" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 12px;&quot;&gt;生成&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
