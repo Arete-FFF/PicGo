@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="第 1 页" id="dZXJRXjMaSXoUaDGgfcQ">
-    <mxGraphModel>
+    <mxGraphModel dx="834" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-1" value="数据预处理" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-2" value="数据收集(总负荷)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="155" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-3" value="数据归一化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-4" value="数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-5" value="特征选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538" y="549.25" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UzZ1Gmgjpd6tUsgARcgz-7" target="UzZ1Gmgjpd6tUsgARcgz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530.5" y="449.5" as="sourcePoint" />
+            <mxPoint x="460.5" y="449.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-7" value="温度、湿度、时间段" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538" y="410" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374.5" y="370" as="sourcePoint" />
+            <mxPoint x="374.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-9" value="小波变换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UzZ1Gmgjpd6tUsgARcgz-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="375" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UzZ1Gmgjpd6tUsgARcgz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="668" y="281.25" as="sourcePoint" />
+            <mxPoint x="478" y="574.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-12" value="神经网络模型" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="273" y="520" width="205" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-13" value="GNN" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="559.25" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-14" value="CNN" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="559.25" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-15" value="LSTM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="409" y="559.25" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-16" value="优化维度特征表达" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478.5" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UzZ1Gmgjpd6tUsgARcgz-12" target="UzZ1Gmgjpd6tUsgARcgz-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="256.9849999999999" y="661.9625000000001" as="sourcePoint" />
+            <mxPoint x="212.5" y="604.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="690" />
+              <mxPoint x="230" y="670" />
+              <mxPoint x="200" y="630" />
+              <mxPoint x="220" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-18" value="训练优化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="610.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374.5" y="632.5" as="sourcePoint" />
+            <mxPoint x="374.5" y="682.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzZ1Gmgjpd6tUsgARcgz-22" value="空调负荷" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
