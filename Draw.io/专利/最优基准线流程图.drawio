@@ -1,9 +1,116 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="第 1 页" id="Uv4PRa69X9b6k56_RQMB">
-    <mxGraphModel>
+    <mxGraphModel dx="983" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-1" value="数据筛选模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-2" value="温差加权模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-3" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="140" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-5" value="弗雷歇距离计算模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="110" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-10" value="输入全年 96 点空调负荷数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_lC4cA4HDBxhd0Byzm3A-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="180" as="sourcePoint" />
+            <mxPoint x="130" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-13" value="筛选室外&lt;div&gt;26℃±0.5℃ 负荷&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_lC4cA4HDBxhd0Byzm3A-14" target="_lC4cA4HDBxhd0Byzm3A-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-14" value="计算温差 diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_lC4cA4HDBxhd0Byzm3A-16" target="_lC4cA4HDBxhd0Byzm3A-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-16" value="计算基准平均负荷" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-17" value="计算负荷差" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-19" value="温差与负荷差计算模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.827;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_lC4cA4HDBxhd0Byzm3A-3" target="_lC4cA4HDBxhd0Byzm3A-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="155" as="sourcePoint" />
+            <mxPoint x="430" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-24" value="温差、负荷差、天气参数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_lC4cA4HDBxhd0Byzm3A-2" target="_lC4cA4HDBxhd0Byzm3A-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="120" as="sourcePoint" />
+            <mxPoint x="140" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-26" value="生成加权曲线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-30" value="生成候选基准线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_lC4cA4HDBxhd0Byzm3A-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="210" as="sourcePoint" />
+            <mxPoint x="680" y="370" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-34" value="生成最优基准线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="_lC4cA4HDBxhd0Byzm3A-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="620" y="110" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_lC4cA4HDBxhd0Byzm3A-39">
+          <mxGeometry width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-27" value="基准线修正模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_lC4cA4HDBxhd0Byzm3A-39">
+          <mxGeometry x="25.5" y="30" width="69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_lC4cA4HDBxhd0Byzm3A-39" source="_lC4cA4HDBxhd0Byzm3A-31" target="_lC4cA4HDBxhd0Byzm3A-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-31" value="温、湿、风加权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_lC4cA4HDBxhd0Byzm3A-39">
+          <mxGeometry x="15" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-32" value="修正函数修正" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_lC4cA4HDBxhd0Byzm3A-39">
+          <mxGeometry x="15" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_lC4cA4HDBxhd0Byzm3A-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.276;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_lC4cA4HDBxhd0Byzm3A-5" target="_lC4cA4HDBxhd0Byzm3A-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <mxPoint x="600" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
