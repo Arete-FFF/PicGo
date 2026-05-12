@@ -181,9 +181,6 @@
             <mxPoint x="210" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N_VXpAQUlRJcOLDXrWf4-59" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="20" as="geometry" />
-        </mxCell>
         <mxCell id="N_VXpAQUlRJcOLDXrWf4-62" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontFamily=Times New Roman;" value="" vertex="1">
           <mxGeometry height="10" width="10" x="285" y="585" as="geometry" />
         </mxCell>
